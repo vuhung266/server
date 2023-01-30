@@ -1000,5 +1000,69 @@
       "avatar": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAACwSURBVDjLY/j//z8DJZhh1ADsBuRPiazJmxLxKa3P/39ki8Mnzwq9GqINyOgPbGhcnfh/y5Wp/y882/W/f3fW//B+3f/m2ZI9RBkQ2+7yfePlCf83Xpv0HwR69qT+79+TDjLgO1EG+FQb/t92Zc5/ZLDp0lSQAf+JMsAyR/p7966k/+27EsCa23cmkOYCoMKW4B6N/727UsA2g2gQn+gwgBrSAcSfQM6G0h2jSRk3BgASP+M7I0sypgAAAABJRU5ErkJggg==",
       "btc_address": "12tTumUNmtwbrLz3Xf6mDXn3qqBuNN2UPB"
     }
+  ],
+  "hdsd_vcb": [
+	{
+		"id":1,
+		"title": "Kích hoạt/đăng nhập",
+		"child": [
+			{
+				"id":"1.1",
+				"title":"Kích hoạt lần đầu sau khi đăng ký"
+			},
+			{
+				"id":"1.2",
+				"title":"Kích hoạt lại (không đổi thiết bị)"
+			},
+			{
+				"id":"1.3",
+				"title":"Kích hoạt lại (đổi thiết bị)"
+			}
+		]
+	},
+	{
+		"id":2,
+		"title": "Danh sách/chi tiết tài khoản/thẻ"
+	},
+	{
+		"id":3,
+		"title": "VCB – Smart OTP tích hợp"
+	},
+	{
+		"id":4,
+		"title": "Chuyển tiền"
+	},
+	{
+		"id":5,
+		"title": "QRPAY"
+	},
+	{
+		"id":6,
+		"title": "Điểm chấp nhận thanh toán QRCode"
+	},
+	{
+		"id":7,
+		"title": "Quản lý thông báo"
+	},
+	{
+		"id":8,
+		"title": "Đặt Nickname tài khoản"
+	},
+	{
+		"id":9,
+		"title": "VCB Family"
+	},
+	{
+		"id":10,
+		"title": "VCB Rewards"
+	},
+	{
+		"id":11,
+		"title": "Quản lý đăng nhập kênh"
+	},
+	{
+		"id":12,
+		"title": "Quên mật khẩu"
+	}
   ]
 }
