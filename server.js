@@ -54,6 +54,16 @@ router.render = (req, res) => {
       email: student.email
     }))
   }
+  if (
+    req.method === 'GET' &&
+    (originalUrl === '/hdsd_vcb' || /^\/hdsd_vcb\?.*$/.test(originalUrl))
+  ) {
+    data = data.map((hdsd) => ({
+      id: hdsd.id,
+      title: hdsd.title,
+      child: hdsd.child
+    }))
+  }
   res.jsonp(data)
 }
 
