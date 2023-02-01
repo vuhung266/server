@@ -1002,347 +1002,367 @@
     }
   ],
   "hdsd_vcb": [
-	{
-		"id":1,
-		"title": "Kích hoạt/đăng nhập",
-		"child": [
-			{
-				"id":"1.1",
-				"title":"Kích hoạt lần đầu sau khi đăng ký"
-			},
-			{
-				"id":"1.2",
-				"title":"Kích hoạt lại (không đổi thiết bị)"
-			},
-			{
-				"id":"1.3",
-				"title":"Kích hoạt lại (đổi thiết bị)"
-			},
-			{
-				"id":"1.4",
-				"title":"Đăng nhập"
-			}
-		]
-	},
-	{
-		"id":2,
-		"title": "Danh sách/chi tiết tài khoản/thẻ",
-		"child": [
-			{
-				"id":"2.1",
-				"title":"Danh sách tài khoản/thẻ"
-			},
-			{
-				"id":"2.2",
-				"title":"Chi tiết tài khoản/thẻ"
-			},
-			{
-				"id":"2.3",
-				"title":"Lịch sử giao dịch"
-			},
-			{
-				"id":"2.4",
-				"title":"Sao kê thẻ"
-			}
-		]
-	},
-	{
-		"id":3,
-		"title": "VCB – Smart OTP tích hợp",
-		"child": [
-			{
-				"id":"3.1",
-				"title":"Kích hoạt VCB - Smart OTP tại luồng kích hoạt dịch vụ VCB Digibank."
-			},
-			{
-				"id":"3.2",
-				"title":"Kích hoạt VCB - Smart OTP tại màn hình popup"
-			},
-			{
-				"id":"3.3",
-				"title":"Kích hoạt VCB – Smart OTP từ màn hình chức năng"
-			},
-			{
-				"id":"3.4",
-				"title":"Hủy kích hoạt VCB – Smart OTP"
-			}
-		]
-	},
-	{
-		"id":4,
-		"title": "Chuyển tiền",
-		"child": [
-			{
-				"id":"4.1",
-				"title":"Chuyển tiền ngoài VCB",
-				"child": [
-					{
-						"id":"4.1.1",
-						"title":"Chuyển tiền ngoài VCB qua tài khoản"
-					},
-					{
-						"id":"4.1.2",
-						"title":"Chuyển tiền ngoài VCB qua thẻ"
-					},
-					{
-						"id":"4.1.3",
-						"title":"Chuyển tiền tương lai ngoài VCB"
-					},
-					{
-						"id":"4.1.4",
-						"title":"Chuyển tiền định kỳ ngoài VCB"
-					}
-				]
-			},
-			{
-				"id":"4.2",
-				"title":"Chuyển tiền nhanh 24/7",
-				"child": [
-					{
-						"id":"4.2.1",
-						"title":"Chuyển tiền nhanh 24/7 qua tài khoản"
-					},
-					{
-						"id":"4.2.2",
-						"title":"Chuyển tiền nhanh 24/7 qua thẻ"
-					}
-				]
-			}
-		]
-	},
-	{
-		"id":5,
-		"title": "QRPAY",
-		"child": [
-			{
-				"id":"5.1",
-				"title":"Quét QR từ màn chưa Login"
-			},
-			{
-				"id":"5.2",
-				"title":"Quét QR từ khi đã Login"
-			},
-			{
-				"id":"5.3",
-				"title":"Lịch sử giao dịch"
-			}
-		]
-	},
-	{
-		"id":6,
-		"title": "Điểm chấp nhận thanh toán QRCode",
-		"child": [
-			{
-				"id":"6.1",
-				"title":"Điểm chấp nhận thanh toán",
-				"child": [
-					{
-						"id":"6.1.1",
-						"title":"Tìm kiếm điểm chấp nhận thanh toán"
-					}
-				]
-			}
-		]
-	},
-	{
-		"id":7,
-		"title": "Quản lý thông báo",
-		"child": [
-			{
-				"id":"7.1",
-				"title":"Cài đặt quản lý thông báo"
-			},
-			{
-				"id":"7.2",
-				"title":"Quản lý Nhận thông báo từ ngân hàng",
-				"child": [
-					{
-						"id":"7.2.1",
-						"title":"Kích hoạt nhận thông báo từ ngân hàng"
-					},
-					{
-						"id":"7.2.2",
-						"title":"Hủy nhận thông báo từ ngân hàng"
-					}
-				]
-			},
-			{
-				"id":"7.3",
-				"title":"Xem thông báo nhanh",
-				"child": [
-					{
-						"id":"7.3.1",
-						"title":"Đăng ký xem thông báo nhanh"
-					},
-					{
-						"id":"7.3.2",
-						"title":"Hủy xem thông báo nhanh"
-					}
-				]
-			},
-			{
-				"id":"7.4",
-				"title":"Nhận thông tin ưu đãi",
-				"child": [
-					{
-						"id":"7.4.1",
-						"title":"Cài đặt nhận thông tin ưu đãi"
-					},
-					{
-						"id":"7.4.2",
-						"title":"Hủy nhận thông tin Ưu đãi"
-					}
-				]
-			}
-		]
-	},
-	{
-		"id":8,
-		"title": "Đặt Nickname tài khoản",
-		"child": [
-			{
-				"id":"8.1",
-				"title":"Thêm mới Nickname Tài khoản"
-			},
-			{
-				"id":"8.2",
-				"title":"Quản lý Nickname tài khoản",
-				"child": [
-					{
-						"id":"8.2.1",
-						"title":"Khóa nickname Tài khoản"
-					},
-					{
-						"id":"8.2.2",
-						"title":"Mở khóa nickname Tài khoản"
-					}
-				]
-			}
-		]
-	},
-	{
-		"id":9,
-		"title": "VCB Family",
-		"child": [
-			{
-				"id":"9.1",
-				"title":"Phát hành thẻ phụ cho con"
-			},
-			{
-				"id":"9.3",
-				"title":"Tiền gửi cho con",
-				"child": [
-					{
-						"id":"9.3.2",
-						"title":"Mở tài khoản tiền gửi cho con"
-					},
-					{
-						"id":"9.3.3",
-						"title":"Tra cứu tiền khoản tiền gửi cho con"
-					},
-					{
-						"id":"9.3.4",
-						"title":"Tất toán tài khoản tiền gửi cho con"
-					}
-				]
-			},
-			{
-				"id":"9.5",
-				"title":"Đăng ký trả nợ từ hai tài khoản",
-				"child": [
-					{
-						"id":"9.5.1",
-						"title":"Khách hàng đã có khoản vay ở VCB"
-					},
-					{
-						"id":"9.5.2",
-						"title":"Khách hàng chưa có tài khoản vay ở VCB"
-					}
-				]
-			}
-		]
-	},
-	{
-		"id":10,
-		"title": "VCB Rewards",
-		"child": [
-			{
-				"id":"10.1",
-				"title":"Lịch sử điểm",
-				"child": [
-					{
-						"id":"10.1.1",
-						"title":"Lịch sử tích điểm"
-					},
-					{
-						"id":"10.1.2",
-						"title":"Lịch sử sử dụng điểm"
-					}
-				]
-			},
-			{
-				"id":"10.2",
-				"title":"Đổi quà",
-				"child": [
-					{
-						"id":"10.2.1",
-						"title":"Danh mục quà"
-					}
-				]
-			},
-			{
-				"id":"10.3",
-				"title":"Tra soát VCB Rewards",
-				"child": [
-					{
-						"id":"10.3.1",
-						"title":"Lập yêu cầu tra soát"
-					},
-					{
-						"id":"10.3.2",
-						"title":"Tra cứu yêu cầu tra soát"
-					}
-				]
-			}
-		]
-	},
-	{
-		"id":11,
-		"title": "Quản lý đăng nhập kênh",
-		"child": [
-			{
-				"id":"11.1",
-				"title":"Cài đặt đăng nhập VCB Digibank trên Web",
-				"child": [
-					{
-						"id":"11.1.1",
-						"title":"Mở khóa chức năng đăng nhập VCB Digibank trên Web"
-					},
-					{
-						"id":"11.1.2",
-						"title":"Khóa đăng nhập VCB Digibank trên Web"
-					}
-				]
-			},
-			{
-				"id":"11.2",
-				"title":"Cài đặt xác thực đăng nhập VCB Digibank trên Web",
-				"child": [
-					{
-						"id":"11.2.1",
-						"title":"Kích hoạt xác thực đăng nhập VCB Digibank trên Web"
-					},
-					{
-						"id":"11.2.2",
-						"title":"Hủy xác thực VCB Digibank trên Web"
-					}
-				]
-			}
-		]
-	},
-	{
-		"id":12,
-		"title": "Quên mật khẩu"
-	}
+    {
+      "id": 1,
+      "title": "Kích hoạt/đăng nhập",
+      "child": [
+        {
+          "id": "1.1",
+          "title": "Kích hoạt lần đầu sau khi đăng ký"
+        },
+        {
+          "id": "1.2",
+          "title": "Kích hoạt lại (không đổi thiết bị)"
+        },
+        {
+          "id": "1.3",
+          "title": "Kích hoạt lại (đổi thiết bị)"
+        },
+        {
+          "id": "1.4",
+          "title": "Đăng nhập"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Danh sách/chi tiết tài khoản/thẻ",
+      "child": [
+        {
+          "id": "2.1",
+          "title": "Danh sách tài khoản/thẻ"
+        },
+        {
+          "id": "2.2",
+          "title": "Chi tiết tài khoản/thẻ"
+        },
+        {
+          "id": "2.3",
+          "title": "Lịch sử giao dịch"
+        },
+        {
+          "id": "2.4",
+          "title": "Sao kê thẻ"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "VCB – Smart OTP tích hợp",
+      "child": [
+        {
+          "id": "3.1",
+          "title": "Kích hoạt VCB - Smart OTP tại luồng kích hoạt dịch vụ VCB Digibank."
+        },
+        {
+          "id": "3.2",
+          "title": "Kích hoạt VCB - Smart OTP tại màn hình popup"
+        },
+        {
+          "id": "3.3",
+          "title": "Kích hoạt VCB – Smart OTP từ màn hình chức năng"
+        },
+        {
+          "id": "3.4",
+          "title": "Hủy kích hoạt VCB – Smart OTP"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Chuyển tiền",
+      "child": [
+        {
+          "id": "4.1",
+          "title": "Chuyển tiền ngoài VCB",
+          "child": [
+            {
+              "id": "4.1.1",
+              "title": "Chuyển tiền ngoài VCB qua tài khoản"
+            },
+            {
+              "id": "4.1.2",
+              "title": "Chuyển tiền ngoài VCB qua thẻ"
+            },
+            {
+              "id": "4.1.3",
+              "title": "Chuyển tiền tương lai ngoài VCB"
+            },
+            {
+              "id": "4.1.4",
+              "title": "Chuyển tiền định kỳ ngoài VCB"
+            }
+          ]
+        },
+        {
+          "id": "4.2",
+          "title": "Chuyển tiền nhanh 24/7",
+          "child": [
+            {
+              "id": "4.2.1",
+              "title": "Chuyển tiền nhanh 24/7 qua tài khoản"
+            },
+            {
+              "id": "4.2.2",
+              "title": "Chuyển tiền nhanh 24/7 qua thẻ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "QRPAY",
+      "child": [
+        {
+          "id": "5.1",
+          "title": "Quét QR từ màn chưa Login"
+        },
+        {
+          "id": "5.2",
+          "title": "Quét QR từ khi đã Login"
+        },
+        {
+          "id": "5.3",
+          "title": "Lịch sử giao dịch"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Điểm chấp nhận thanh toán QRCode",
+      "child": [
+        {
+          "id": "6.1",
+          "title": "Điểm chấp nhận thanh toán",
+          "child": [
+            {
+              "id": "6.1.1",
+              "title": "Tìm kiếm điểm chấp nhận thanh toán"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Quản lý thông báo",
+      "child": [
+        {
+          "id": "7.1",
+          "title": "Cài đặt quản lý thông báo"
+        },
+        {
+          "id": "7.2",
+          "title": "Quản lý Nhận thông báo từ ngân hàng",
+          "child": [
+            {
+              "id": "7.2.1",
+              "title": "Kích hoạt nhận thông báo từ ngân hàng"
+            },
+            {
+              "id": "7.2.2",
+              "title": "Hủy nhận thông báo từ ngân hàng"
+            }
+          ]
+        },
+        {
+          "id": "7.3",
+          "title": "Xem thông báo nhanh",
+          "child": [
+            {
+              "id": "7.3.1",
+              "title": "Đăng ký xem thông báo nhanh"
+            },
+            {
+              "id": "7.3.2",
+              "title": "Hủy xem thông báo nhanh"
+            }
+          ]
+        },
+        {
+          "id": "7.4",
+          "title": "Nhận thông tin ưu đãi",
+          "child": [
+            {
+              "id": "7.4.1",
+              "title": "Cài đặt nhận thông tin ưu đãi"
+            },
+            {
+              "id": "7.4.2",
+              "title": "Hủy nhận thông tin Ưu đãi"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Đặt Nickname tài khoản",
+      "child": [
+        {
+          "id": "8.1",
+          "title": "Thêm mới Nickname Tài khoản"
+        },
+        {
+          "id": "8.2",
+          "title": "Quản lý Nickname tài khoản",
+          "child": [
+            {
+              "id": "8.2.1",
+              "title": "Khóa nickname Tài khoản"
+            },
+            {
+              "id": "8.2.2",
+              "title": "Mở khóa nickname Tài khoản"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "VCB Family",
+      "child": [
+        {
+          "id": "9.1",
+          "title": "Phát hành thẻ phụ cho con"
+        },
+        {
+          "id": "9.3",
+          "title": "Tiền gửi cho con",
+          "child": [
+            {
+              "id": "9.3.2",
+              "title": "Mở tài khoản tiền gửi cho con"
+            },
+            {
+              "id": "9.3.3",
+              "title": "Tra cứu tiền khoản tiền gửi cho con"
+            },
+            {
+              "id": "9.3.4",
+              "title": "Tất toán tài khoản tiền gửi cho con"
+            }
+          ]
+        },
+        {
+          "id": "9.5",
+          "title": "Đăng ký trả nợ từ hai tài khoản",
+          "child": [
+            {
+              "id": "9.5.1",
+              "title": "Khách hàng đã có khoản vay ở VCB"
+            },
+            {
+              "id": "9.5.2",
+              "title": "Khách hàng chưa có tài khoản vay ở VCB"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "VCB Rewards",
+      "child": [
+        {
+          "id": "10.1",
+          "title": "Lịch sử điểm",
+          "child": [
+            {
+              "id": "10.1.1",
+              "title": "Lịch sử tích điểm"
+            },
+            {
+              "id": "10.1.2",
+              "title": "Lịch sử sử dụng điểm"
+            }
+          ]
+        },
+        {
+          "id": "10.2",
+          "title": "Đổi quà",
+          "child": [
+            {
+              "id": "10.2.1",
+              "title": "Danh mục quà"
+            }
+          ]
+        },
+        {
+          "id": "10.3",
+          "title": "Tra soát VCB Rewards",
+          "child": [
+            {
+              "id": "10.3.1",
+              "title": "Lập yêu cầu tra soát"
+            },
+            {
+              "id": "10.3.2",
+              "title": "Tra cứu yêu cầu tra soát"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Quản lý đăng nhập kênh",
+      "child": [
+        {
+          "id": "11.1",
+          "title": "Cài đặt đăng nhập VCB Digibank trên Web",
+          "child": [
+            {
+              "id": "11.1.1",
+              "title": "Mở khóa chức năng đăng nhập VCB Digibank trên Web"
+            },
+            {
+              "id": "11.1.2",
+              "title": "Khóa đăng nhập VCB Digibank trên Web"
+            }
+          ]
+        },
+        {
+          "id": "11.2",
+          "title": "Cài đặt xác thực đăng nhập VCB Digibank trên Web",
+          "child": [
+            {
+              "id": "11.2.1",
+              "title": "Kích hoạt xác thực đăng nhập VCB Digibank trên Web"
+            },
+            {
+              "id": "11.2.2",
+              "title": "Hủy xác thực VCB Digibank trên Web"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Quên mật khẩu"
+    }
+  ],
+  "menus": [
+    {
+      "key": 1,
+      "name": "abc123123",
+      "pid": "1",
+      "order": 0
+    },
+    {
+      "name": "aa123",
+      "pid": "234",
+      "order": "123",
+      "key": 3
+    },
+    {
+      "name": "cccaaaa123",
+      "pid": "123",
+      "order": "123",
+      "key": 4
+    }
   ]
 }
