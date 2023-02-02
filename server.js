@@ -63,7 +63,7 @@ router.render = (req, res) => {
     (originalUrl === "/menus" || /^\/menus\?.*$/.test(originalUrl))
   ) {
     data = data.map((menu) => ({
-      key: menu.key,
+      id: menu.id,
       name: menu.name,
       pid: menu.pid,
       order: menu.order, 
