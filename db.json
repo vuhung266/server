@@ -1347,74 +1347,136 @@
   ],
   "menus": [
     {
-      "id": 1,
-      "name": "abc123123",
-      "pid": "1",
-      "order": 0
-    },
-    {
-      "name": "aa123",
-      "pid": "234",
-      "order": "123",
-      "id": 3
-    },
-    {
-      "name": "cccaaaa123",
-      "pid": "123",
-      "order": "123",
+      "name": "Kích hoạt/đăng nhập",
+      "order": "1",
+      "pid": 0,
       "id": 4
     },
     {
-      "name": "aad",
-      "order": "d",
-      "pid": 1,
+      "name": "Kích hoạt lần đầu sau khi đăng ký",
+      "order": "1",
+      "pid": 4,
       "id": 5
     },
     {
+      "name": "Kích hoạt lại (không đổi thiết bị)",
+      "order": "2",
+      "pid": 4,
       "id": 6
     },
     {
+      "name": "Kích hoạt lại (đổi thiết bị)",
+      "order": "3",
+      "pid": 4,
       "id": 7
     },
     {
+      "name": "Đăng nhập",
+      "order": "4",
+      "pid": 4,
       "id": 8
     },
     {
+      "name": "Danh sách/chi tiết tài khoản/thẻ",
+      "order": "2",
+      "pid": 0,
       "id": 9
     },
     {
-      "name": "aaaa",
+      "name": "Danh sách tài khoản/thẻ",
       "order": "1",
-      "pid": 1,
+      "pid": 9,
       "id": 10
     },
     {
-      "name": "cccc",
+      "name": "Chi tiết tài khoản/thẻ",
       "order": "2",
-      "pid": 1,
+      "pid": 9,
       "id": 11
     },
     {
-      "name": "eee",
-      "order": "2",
-      "pid": 3,
+      "name": "Lịch sử giao dịch",
+      "order": "3",
+      "pid": 9,
       "id": 12
     },
     {
-      "name": "aaa",
-      "order": "c",
-      "pid": 3,
+      "name": "Sao kê thẻ",
+      "order": "4",
+      "pid": 9,
       "id": 13
     },
     {
-      "name": "nuctvaaaa",
-      "order": "a",
+      "name": "VCB – Smart OTP tích hợp",
+      "order": "3",
+      "pid": 0,
       "id": 14
     },
     {
-      "name": "aaa",
-      "order": "2",
+      "name": "Kích hoạt VCB - Smart OTP tại luồng kích hoạt dịch vụ VCB Digibank",
+      "order": "1",
+      "pid": 14,
       "id": 15
+    },
+    {
+      "name": "Kích hoạt VCB - Smart OTP tại màn hình popup",
+      "order": "2",
+      "pid": 14,
+      "id": 16
+    },
+    {
+      "name": "Kích hoạt VCB – Smart OTP từ màn hình chức năng",
+      "order": "3",
+      "pid": 14,
+      "id": 17
+    },
+    {
+      "name": "Hủy kích hoạt VCB – Smart OTP",
+      "order": "5",
+      "pid": 14,
+      "id": 18
+    },
+    {
+      "name": "Chuyển tiền nhanh 24/7",
+      "order": "1",
+      "pid": 23,
+      "id": 19
+    },
+    {
+      "name": "Chuyển tiền ngoài VCB",
+      "order": "1",
+      "pid": 23,
+      "id": 20
+    },
+    {
+      "name": "Chuyển tiền ngoài VCB qua tài khoản",
+      "order": "1",
+      "pid": 20,
+      "id": 21
+    },
+    {
+      "name": "Chuyển tiền ngoài VCB qua thẻ",
+      "order": "2",
+      "pid": 20,
+      "id": 22
+    },
+    {
+      "name": "Chuyển tiền",
+      "order": "4",
+      "pid": 0,
+      "id": 23
+    },
+    {
+      "name": "Chuyển tiền nhanh 24/7 qua tài khoản",
+      "order": "1",
+      "pid": 19,
+      "id": 24
+    },
+    {
+      "name": "Chuyển tiền nhanh 24/7 qua thẻ",
+      "order": "2",
+      "pid": 19,
+      "id": 25
     }
   ]
 }
