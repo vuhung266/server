@@ -1438,7 +1438,7 @@
     },
     {
       "name": "Chuyển tiền nhanh 24/7",
-      "order": "1",
+      "order": "2",
       "pid": 23,
       "id": 19
     },
@@ -1477,6 +1477,36 @@
       "order": "2",
       "pid": 19,
       "id": 25
+    },
+    {
+      "name": "Chuyển tiền tương lai ngoài VCB",
+      "order": "3",
+      "pid": 20,
+      "id": 26
+    },
+    {
+      "name": "Chuyển tiền định kỳ ngoài VCB",
+      "order": "4",
+      "pid": 20,
+      "id": 27
+    },
+    {
+      "name": "QRPAY",
+      "order": "5",
+      "pid": 0,
+      "id": 28
+    },
+    {
+      "name": "Quét QR từ màn chưa Login",
+      "order": "1",
+      "pid": 28,
+      "id": 29
+    },
+    {
+      "name": "Quét QR từ khi đã Login",
+      "order": "2",
+      "pid": 28,
+      "id": 30
     }
   ]
 }
