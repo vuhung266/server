@@ -69,6 +69,19 @@ router.render = (req, res) => {
       order: menu.order, 
     }));
   }
+  if (
+    req.method === "GET" &&
+    (originalUrl === "/detail_hdsd" || /^\/detail_hdsd\?.*$/.test(originalUrl))
+  ) {
+    data = data.map((hdsd) => ({
+      id: hdsd.id,
+	  pid: hdsd.pid,
+	  step: hdsd.step, 
+      name: hdsd.name,
+      desc: hdsd.desc,
+      img: hdsd.img  
+    }));
+  }
   res.jsonp(data);
 };
 

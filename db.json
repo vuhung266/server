@@ -1507,6 +1507,144 @@
       "order": "2",
       "pid": 28,
       "id": 30
+    },
+    {
+      "name": "QR Type 1 Tĩnh",
+      "order": "1",
+      "pid": 30,
+      "id": 31
+    },
+    {
+      "name": "QR Type 1 Động",
+      "order": "2",
+      "pid": 30,
+      "id": 32
+    },
+    {
+      "name": "QR Type 2",
+      "order": "3",
+      "pid": 30,
+      "id": 33
+    },
+    {
+      "name": "QR Type 3",
+      "order": "4",
+      "pid": 30,
+      "id": 34
+    },
+    {
+      "name": "QR Type 4",
+      "order": "5",
+      "pid": 30,
+      "id": 35
+    },
+    {
+      "name": "Lịch sử giao dịch",
+      "order": "3",
+      "pid": 28,
+      "id": 36
+    },
+    {
+      "name": "Điểm chấp nhận thanh toán QRCode",
+      "order": "6",
+      "pid": 0,
+      "id": 37
+    },
+    {
+      "name": "Điểm chấp nhận thanh toán",
+      "order": "1",
+      "pid": 37,
+      "id": 38
+    },
+    {
+      "name": "Tìm kiếm điểm chấp nhận thanh toán",
+      "order": "1",
+      "pid": 38,
+      "id": 39
+    },
+    {
+      "name": "Quản lý thông báo",
+      "order": "7",
+      "pid": 0,
+      "id": 40
+    },
+    {
+      "name": "Cài đặt quản lý thông báo",
+      "order": "1",
+      "pid": 40,
+      "id": 41
+    },
+    {
+      "name": "Quản lý Nhận thông báo từ ngân hàng",
+      "order": "2",
+      "pid": 40,
+      "id": 42
+    },
+    {
+      "name": "Kích hoạt nhận thông báo từ ngân hàng",
+      "order": "1",
+      "pid": 42,
+      "id": 43
+    },
+    {
+      "name": "Hủy nhận thông báo từ ngân hàng",
+      "order": "2",
+      "pid": 42,
+      "id": 44
+    },
+    {
+      "name": "Xem thông báo nhanh",
+      "order": "3",
+      "pid": 40,
+      "id": 45
+    },
+    {
+      "name": "Đăng ký xem thông báo nhanh",
+      "order": "1",
+      "pid": 45,
+      "id": 46
+    },
+    {
+      "name": "Hủy xem thông báo nhanh",
+      "order": "2",
+      "pid": 45,
+      "id": 47
+    },
+    {
+      "name": "Nhận thông tin ưu đãi",
+      "order": "4",
+      "pid": 40,
+      "id": 48
+    },
+    {
+      "name": "Cài đặt nhận thông tin ưu đãi",
+      "order": "1",
+      "pid": 48,
+      "id": 49
+    },
+    {
+      "name": "Hủy nhận thông tin Ưu đãi",
+      "order": "2",
+      "pid": 48,
+      "id": 50
+    }
+  ],
+  "detail_hdsd": [
+    {
+      "step": "1",
+      "pid": 4,
+      "name": "Kích hoạt/đăng nhập",
+      "desc": "mô tả nội dung",
+      "img": "1.jpg",
+      "id": 1
+    },
+    {
+      "step": "2",
+      "pid": 4,
+      "name": "Kích hoạt lần đầu sau khi đăng ký",
+      "desc": "mô tả nội dung",
+      "img": "2.jpg",
+      "id": 2
     }
   ]
 }
