@@ -1627,86 +1627,237 @@
       "order": "2",
       "pid": 48,
       "id": 50
+    },
+    {
+      "name": "abc123",
+      "order": "2",
+      "pid": "1",
+      "id": 51
+    },
+    {
+      "step": "1",
+      "img": "2",
+      "name": "3",
+      "desc": "4",
+      "id": 52
+    },
+    {
+      "step": "1",
+      "img": "2",
+      "name": "3",
+      "desc": "4",
+      "id": 53
+    },
+    {
+      "name": "aaaaaaaaa",
+      "id": 54
     }
   ],
   "detail_hdsd": [
     {
       "step": "1",
-      "pid": 4,
-      "name": "Kích hoạt/đăng nhập",
-      "desc": "mô tả nội dung",
-      "img": "1.jpg",
-      "id": 1
+      "img": "2",
+      "name": "3",
+      "desc": "4",
+      "pid": "8",
+      "id": 4
     },
     {
-      "name": "1",
       "step": "1",
-      "img": "1",
-      "desc": "1",
+      "img": "2",
+      "name": "3",
+      "desc": "4",
+      "pid": "54",
       "id": 7
     },
     {
-      "name": "3",
-      "step": "1",
-      "img": "2",
-      "desc": "4",
+      "step": "2",
+      "img": "3",
+      "name": "4",
+      "desc": "5",
+      "pid": "54",
       "id": 8
     },
     {
       "step": "1",
-      "img": "1",
-      "name": "olala",
-      "desc": "<a href=#1>aaaaa</a>",
-      "pid": 10,
-      "id": 11
+      "img": "2",
+      "name": "3",
+      "desc": "4",
+      "pid": "3",
+      "id": 9
     },
     {
       "step": "2",
+      "img": "3",
+      "name": "4",
+      "desc": "5",
+      "pid": "3",
+      "id": 10
+    },
+    {
+      "step": "4",
       "img": "1",
-      "name": "bbbb",
-      "desc": "<a href=#1>bbbb</a>",
-      "pid": 10,
+      "name": "ddđ",
+      "desc": "aaaa",
+      "pid": "3",
+      "id": 11
+    },
+    {
       "id": 12
     },
     {
-      "step": "3",
+      "step": "1",
       "img": "1",
-      "name": "ccc",
-      "desc": "<a href=#1>cccc</a>",
-      "pid": 10,
+      "name": "1",
+      "desc": "1",
       "id": 13
     },
     {
-      "step": "1",
-      "img": "2",
-      "name": "3",
-      "desc": "4",
-      "pid": 8,
+      "name": "aaaa",
+      "pid": "1",
+      "order": "2",
       "id": 14
     },
     {
-      "step": "1",
-      "img": "2",
+      "step": "3",
+      "img": "3",
       "name": "3",
-      "desc": "4",
-      "pid": 8,
+      "desc": "3",
+      "pid": "51",
+      "id": 15
+    },
+    {
+      "step": "3",
+      "img": "3",
+      "name": "3",
+      "desc": "3",
+      "pid": "51",
       "id": 16
     },
     {
       "step": "1",
-      "img": "2",
-      "name": "3",
-      "desc": "4",
-      "pid": 8,
+      "img": "1",
+      "desc": "Mở ứng dụng VCB Digibank, nhập số điện thoại đã được đăng ký với ngân hàng và nhấn <b>Tiếp Tục</b>.",
+      "pid": "5",
       "id": 17
+    },
+    {
+      "step": "2",
+      "img": "2",
+      "desc": "- Nhập mật khẩu mặc định được ngân hàng gửi đến số điện thoại đăng ký sử dụng VCB Digibank<br/>\n- Nhập mật khẩu mới để tiến hành đổi mật khẩu<br/>\n- Nhấn <b>Tiếp Tục</b>.",
+      "pid": "5",
+      "id": 18
+    },
+    {
+      "step": "3",
+      "img": "3",
+      "desc": "Nhập mã xác nhận (OTP) đã được gửi về số điện thoại đăng ký và nhấn <b>Tiếp Tục</b>.",
+      "pid": "5",
+      "id": 19
+    },
+    {
+      "step": "4",
+      "img": "4",
+      "desc": "Thực hiện tạo PIN Smart OTP và xác nhận để sử dụng dịch vụ VCB Digibank.",
+      "pid": "5",
+      "id": 20
+    },
+    {
+      "step": "1",
+      "img": "1",
+      "name": "1",
+      "desc": "1",
+      "pid": "6",
+      "id": 21
+    },
+    {
+      "step": "2",
+      "img": "2",
+      "name": "2",
+      "desc": "2",
+      "pid": "6",
+      "id": 22
+    },
+    {
+      "step": "1",
+      "desc": "Nhấn Danh sách <b>tài khoản/thẻ</b> tại màn hình Home",
+      "pid": "10",
+      "id": 23
+    },
+    {
+      "step": "2",
+      "img": "2",
+      "desc": "Nhấn chuyển tab <b>Tài khoản/thẻ</b> để xem thông tin tương ứng",
+      "pid": "10",
+      "id": 24
+    },
+    {
+      "step": "3",
+      "desc": "Nhấn vào nhóm <b>tài khoản/thẻ</b> muốn xem để hiển thị danh sách tài khoản/thẻ",
+      "pid": "10",
+      "id": 25
+    },
+    {
+      "step": "1",
+      "desc": "Tại màn hình chi tiết thẻ tín dụng, nhấn sao kê thẻ. Hiển thị màn hình sao kê thẻ tương ứng",
+      "pid": "13",
+      "id": 26
+    },
+    {
+      "step": "2",
+      "desc": "Nhấn vào một giao dịch để hiển thị màn hình chi tiết giao dịch",
+      "pid": "13",
+      "id": 27
+    },
+    {
+      "step": "3",
+      "desc": "Nhấn chọn combobox sao kê để xem các trạng thái chờ sao kê và chờ xử lý",
+      "pid": "13",
+      "id": 28
+    },
+    {
+      "step": "1",
+      "name": "Popup kích hoạt",
+      "desc": "Mở ứng dụng, nhập thông tin đăng nhập thành công, hiển thị popup kích hoạt VCB – Smart OTP và nhấn Kích hoạt",
+      "pid": "16",
+      "id": 29
+    },
+    {
+      "step": "2",
+      "name": "Khởi tạo kích hoạt",
+      "desc": "- Nhập mã PIN<br/>\n- Nhập lại mã PIN<br/>\n- Tích chọn điều khoản, điều kiện<br/>\n- Chọn phương thức xác thực<br/>\n- Nhấn Tiếp tục",
+      "pid": "16",
+      "id": 30
+    },
+    {
+      "step": "3",
+      "name": "Xác thực giao dịch",
+      "desc": "Nhập mã xác nhận (OTP) được gửi về số điện thoại đăng ký và nhấn Xác nhận",
+      "pid": "16",
+      "id": 31
+    },
+    {
+      "step": "4",
+      "name": "Kết quả kích hoạt",
+      "desc": "Hiển thị popup thông báo đã kích hoạt thành công",
+      "pid": "16",
+      "id": 32
     },
     {
       "step": "1",
       "img": "2",
       "name": "3",
       "desc": "4",
-      "pid": 8,
-      "id": 18
+      "pid": "7",
+      "id": 33
+    },
+    {
+      "step": 1,
+      "img": "1.jpg",
+      "name": "aaa",
+      "desc": "cccc",
+      "pid": "53",
+      "id": 34
     }
   ]
 }
